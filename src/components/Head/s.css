@@ -1,0 +1,6 @@
+.curved {
+  clip-path: path("M 0 200 L 0,75 A 5,5 0,0,1 150,75 L 200 200 z");
+ 
+  
+}
+/* bg-[#FCFCFC]  sm:bg-amber-100 md:bg-amber-400 lg:bg-amber-600 xl:bg-amber-950 */
