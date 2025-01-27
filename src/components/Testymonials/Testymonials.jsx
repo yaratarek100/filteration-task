@@ -6,7 +6,7 @@ export default function Testymonials() {
   return (
     <div className="py-12 bg-gray-100">
       <Title title="Testymonials"></Title>
-      <div className="flex justify-center items-center flex-wrap p-12 gap-11">
+      <div className="flex justify-center items-center flex-wrap p-12 px-20 gap-11">
         <div className="cardBox w-70 shrink md:w-1/3 md:grow ">
         <div className="card  rounded-3xl  p-4 border border-[#6D91EE] lg:flex lg:gap-6 bg-white">
           <div className="lg:w-1/2 ">

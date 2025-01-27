@@ -8,11 +8,8 @@ export default function About() {
      ">
       <div        className="leftDiv w-full md:h-full bg-cover bg-center "
         style={{
-          backgroundImage: `
-    linear-gradient(rgba(109, 145, 238, 0.7), rgba(109, 145, 238, 0.7)), 
-    url("src/assets/images/5ab4770fb0ff3123d0ae01db31c409a7.jpg")
-  `,
-        }}
+          backgroundImage: `    linear-gradient(rgba(109, 145, 238, 0.7), rgba(109, 145, 238, 0.7)), 
+              url("src/assets/images/5ab4770fb0ff3123d0ae01db31c409a7.jpg")  `,        }}
       >
         <div className="content text-left text-white md:w-[45%] xl:w-4/10 p-[7%]">
           <h1 className="font-bold text-4xl md:text-5xl my-7 
@@ -31,7 +28,7 @@ export default function About() {
       right-0 top-0 md:h-full md:z-10 flex justify-end items-center "
   style={{  clipPath: window.innerWidth >= 768 ? "polygon(40% 0, 100% 0, 100% 100%, 0 100%)" : "none",}}
 >
-  <div className="content text-right text-white  p-[7%] md:w-3/4">
+  <div className="content text-right text-white  p-[7%] md:w-3/4 lg:w-2/3">
     <h1 className="font-bold  text-4xl my-8  md:text-5xl ">Where</h1>
     <p className=" xl:text-xl   ">
       Lorem Ipsum is simply dummy text of the printing and typesetting industry.

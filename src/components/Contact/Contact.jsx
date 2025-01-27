@@ -62,7 +62,7 @@ export default function Contact() {
               onBlur={formik.handleBlur}
               value={formik.values.email}
               type="email"
-              className="rounded-3xl m-3 p-5 bg-[#CEDCFF] block w-9/10 sm:w-80 h-8"
+              className="rounded-3xl m-3 p-5 bg-[#CEDCFF] block w-9/10 sm:w-80 lg:w-90 h-8"
               placeholder="email "
             ></input>
             {formik.touched.email && formik.errors.email ? (
@@ -76,7 +76,7 @@ export default function Contact() {
               onBlur={formik.handleBlur}
               value={formik.values.name}
               type="text"
-              className="rounded-3xl m-3 p-5 bg-[#CEDCFF] block w-9/10 sm:w-80 h-8"
+              className="rounded-3xl m-3 p-5 bg-[#CEDCFF] block w-9/10 sm:w-80 lg:w-90 h-8"
               placeholder="name "
             ></input>
 
@@ -92,7 +92,7 @@ export default function Contact() {
               onBlur={formik.handleBlur}
               value={formik.values.phone}
               type="text"
-              className="rounded-3xl m-3 p-5 bg-[#CEDCFF] block w-9/10 sm:w-80 h-8"
+              className="rounded-3xl m-3 p-5 bg-[#CEDCFF] block w-9/10 sm:w-80 lg:w-90 h-8"
               placeholder="phone"
             ></input>
 
