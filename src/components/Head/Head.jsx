@@ -19,7 +19,7 @@ export default function Head() {
           </div>
         <div className=" text-center">
 
-          <button className="bg-[#6D91EE] text-white rounded-2xl text-sm p-2 px-3 sm:text-lg sm:px-4 cursor-pointer hover:opacity-80 ">
+          <button className="bg-[#6D91EE] text-white rounded-2xl text-sm p-2 px-4 sm:text-lg sm:px-6 md:px-9 sm:font-medium cursor-pointer hover:opacity-80 ">
             Experts
           </button>
           <h1 className=" text-4xl text-[#4F4F4F] my-2 md:text-5xl lg:text-6xl xl:text-7xl">
