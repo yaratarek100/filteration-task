@@ -52,31 +52,18 @@ export default function Contact() {
   return (
     <>
 
-      <div className="py-5 bg-[#FCFCFC] ">
+      <div className="py-20 bg-[#FCFCFC] ">
         <Title title="Contact Us"></Title>
-        <div className="flex flex-col md:flex-row justify-center gap-6 items-center">
+        <div className="flex flex-col md:flex-row justify-center gap-6 lg:gap-24 items-center mt-10">
           <form onSubmit={formik.handleSubmit} className="my-5 ">
-            <input
-              name="email"
-              onChange={formik.handleChange}
-              onBlur={formik.handleBlur}
-              value={formik.values.email}
-              type="email"
-              className="rounded-3xl m-3 p-5 bg-[#CEDCFF] block w-9/10 sm:w-80 lg:w-90 h-8"
-              placeholder="email "
-            ></input>
-            {formik.touched.email && formik.errors.email ? (
-              <div className="text-red-500 text-center text-sm">
-                {formik.errors.email}
-              </div>
-            ) : null}
+         
             <input
               name="name"
               onChange={formik.handleChange}
               onBlur={formik.handleBlur}
               value={formik.values.name}
               type="text"
-              className="rounded-3xl m-3 p-5 bg-[#CEDCFF] block w-9/10 sm:w-80 lg:w-90 h-8"
+              className="rounded-3xl m-3 p-5 lg:px-9 lg:py-6 lg:text-lg bg-[#CEDCFF] block w-9/10 sm:w-80 lg:w-90 h-8 placeholder:text-black capitalize"
               placeholder="name "
             ></input>
 
@@ -85,14 +72,27 @@ export default function Contact() {
                 {formik.errors.name}
               </div>
             ) : null}
-
+   <input
+              name="email"
+              onChange={formik.handleChange}
+              onBlur={formik.handleBlur}
+              value={formik.values.email}
+              type="email"
+              className="rounded-3xl m-3 p-5 lg:px-9 lg:py-6 lg:text-lg bg-[#CEDCFF] block w-9/10 sm:w-80 lg:w-90 h-8 placeholder:text-black capitalize"
+              placeholder="email "
+            ></input>
+            {formik.touched.email && formik.errors.email ? (
+              <div className="text-red-500 text-center text-sm">
+                {formik.errors.email}
+              </div>
+            ) : null}
             <input
               name="phone"
               onChange={formik.handleChange}
               onBlur={formik.handleBlur}
               value={formik.values.phone}
               type="text"
-              className="rounded-3xl m-3 p-5 bg-[#CEDCFF] block w-9/10 sm:w-80 lg:w-90 h-8"
+              className="rounded-3xl m-3 p-5 lg:px-9 lg:py-6 lg:text-lg bg-[#CEDCFF] block w-9/10 sm:w-80 lg:w-90 h-8 placeholder:text-black capitalize"
               placeholder="phone"
             ></input>
 
@@ -116,7 +116,7 @@ export default function Contact() {
 
             <button
               type="submit"
-              className=" cursor-pointer border-2 border-[var(--main-color)] rounded-4xl p-3 px-15 mx-auto block mt-3"
+              className=" cursor-pointer border-2 lg:border-4 lg:text-xl border-[var(--main-color)] rounded-4xl p-3 px-15 mx-auto block mt-5"
             >
               {buttonLauding ? (
                 <i className="fa fa-spinner fa-spin"></i>

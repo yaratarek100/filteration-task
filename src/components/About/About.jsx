@@ -14,7 +14,7 @@ export default function About() {
         <div className="content text-left text-white md:w-[45%] xl:w-4/10 p-[7%]">
           <h1 className="font-bold text-4xl md:text-5xl my-7 
          ">About Us</h1>
-          <p className="my-5  xl:text-xl ">
+          <p className="my-5  xl:text-xl font-semibold">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s, when an
@@ -26,11 +26,11 @@ export default function About() {
       </div>
       <div  className="rightDiv bg-[#6D91EE] md:absolute md:w-3/4 
       right-0 top-0 md:h-full md:z-10 flex justify-end items-center "
-  style={{  clipPath: window.innerWidth >= 768 ? "polygon(40% 0, 100% 0, 100% 100%, 0 100%)" : "none",}}
+
 >
   <div className="content text-right text-white  p-[7%] md:w-3/4 lg:w-2/3">
     <h1 className="font-bold  text-4xl my-8  md:text-5xl ">Where</h1>
-    <p className=" xl:text-xl   ">
+    <p className=" xl:text-xl  font-semibold ">
       Lorem Ipsum is simply dummy text of the printing and typesetting industry.
       Lorem Ipsum has been the industry's standard dummy text ever since the
       1500s, when an unknown printer took a galley of type and scrambled it to
@@ -43,7 +43,7 @@ export default function About() {
     </p>
   </div>
 </div>
-<div className=" md:absolute md:bottom-2 left-[50%] md:transform-[translateX(-50%)] md:z-20 ">
+<div className=" md:absolute md:bottom-7 left-[50%] md:transform-[translateX(-50%)] md:z-20 ">
 <HelpBtn style="2"/>
 </div>
 

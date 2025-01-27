@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Title({title}) {
   return (
-    <div className='scale-75 sm:scale-100'>
+    <div className='scale-75 sm:scale-100 md:scale-125 lg:scale-150 md:my-5 lg:my-11'>
          <div className="title my-9 flex justify-center items-center">
         <div className="b">
           <div  className= "s"></div>

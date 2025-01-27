@@ -5,20 +5,29 @@
   --main-color: #5180f6;
 }
 
-  .title .b div  {
-    content: "";
-    width: 40px; 
-    height: 2px;
-    background-color: #6a95f7;
-    transform: rotate(45deg); 
+.title .b div {
+  content: "";
+  width: 40px;
+  height: 2px;
+  background-color: #6a95f7;
+  transform: rotate(45deg);
+}
+.title .b {
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title .b .s {
+  transform: rotate(-45deg);
+}
+
+@media (min-width: 768px) {
+  .rightDiv {
+    clip-path: polygon(40% 0, 100% 0, 100% 100%, 0 100%);
   }
-  .title .b{
-    height: 60px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  .headimg {
+    clip-path: polygon(0 0, 100% 0, 70% 100%, 0 100%);
   }
-  
-  .title .b .s{
-    transform: rotate(-45deg); 
-  }
+}
