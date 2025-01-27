@@ -7,9 +7,9 @@ import src3 from "../../assets/images/5c96be21672060676b836291c441e6b3.jpg";
 
 export default function Services() {
   return (
-    <div className="p-5 bg-gray-100">
+    <div className=" py-5 bg-gray-100 overflow-x-hidden ">
       <Title title="Services"></Title>
-      <div className="flex justify-center items-center p-6 flex-wrap  mx-auto text-[#324473]">
+      <div className="flex justify-center items-center py-6 flex-wrap  mx-auto text-[#324473]">
         <div className="cursor-pointer hover:scale-105 transition hover:opacity-85 w-80 sm:shrink grow min-w-70 max-w-96  m-6 rounded-4xl overflow-hidden bg-white shadow-xl">
           <div className=" overflow-hidden h-[299px]">
             <img src={src1} className="  h-full object-cover "></img>

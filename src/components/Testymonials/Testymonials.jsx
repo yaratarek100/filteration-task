@@ -4,7 +4,7 @@ import profileImg from "../../assets/images/2e8d8e4f5e65a3d48109b8bdbea95a8b.png
 
 export default function Testymonials() {
   return (
-    <div className="py-12 bg-gray-100">
+    <div className="py-12 bg-gray-100 overflow-x-hidden ">
       <Title title="Testymonials"></Title>
       <div className="flex justify-center items-center flex-wrap p-12 sm:px-30 gap-11">
         <div className="cardBox w-70 grow  md:w-3/6 lg:w-4/10 ">

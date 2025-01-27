@@ -52,7 +52,7 @@ export default function Contact() {
   return (
     <>
 
-      <div className="py-20 bg-[#FCFCFC] ">
+      <div className="py-20 bg-[#FCFCFC] overflow-x-hidden ">
         <Title title="Contact Us"></Title>
         <div className="flex flex-col md:flex-row justify-center gap-6 lg:gap-24 items-center mt-10">
           <form onSubmit={formik.handleSubmit} className="my-5 ">

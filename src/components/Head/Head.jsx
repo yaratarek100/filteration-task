@@ -26,7 +26,7 @@ export default function Head() {
             <span className="font-[100]">Lorem</span>
             <span className="block font-black"> Lorem lorem</span>
           </h1>
-          <p className="w-1/2 mx-auto my-3  sm:my-4 sm:text-lg text-[#4F4F4F] font-semibold">
+          <p className="w-1/2 min-w-50  md:w-4/9  mx-auto my-3  sm:my-4 sm:text-lg text-[#4F4F4F] font-semibold">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the
